@@ -1,7 +1,3 @@
-
-
-//THIS IS THE BAR MENU OTHAT EMERGES FROM THE RIGHT OF THE APP THAT CONTAINS THE USER SETTINGS
-
 import React from "react";
 import { slide as Menu } from "react-burger-menu";
 import { GoSmiley } from "react-icons/go";
@@ -12,16 +8,15 @@ import { GiStack } from "react-icons/gi";
 import { FaAddressBook} from "react-icons/fa";
 import { MdPersonOutline} from "react-icons/md";
 import { FaSlidersH} from "react-icons/fa";
-// import avatar from './avatar.png' //this is a default avatar img
 import pic from './images/pic.png'
-import "./styles/user.css";
+import "./styles/user-left.css";
 
 
 export default props => {
   return (
-    <Menu  right>
-      <a className="menu-item" id="user" href="/"> <img className="avatar" src={pic}alt="avatar"></img>
-        Fiona Murphy 
+    <Menu className="burger-button2">
+      <a className="menu-item" id="user" href="/"> 
+       Channels
       </a>
 
       <a className="menu-item" id="status" href="/burgers"><GoSmiley className="icon" />

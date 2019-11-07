@@ -17,6 +17,8 @@ function App() {
           <Switch>
             <Route exact path="/" render={() => <Login title="12345" />} />
             <Route path="/Main" component={Main} />
+            <Route path="/Main" component={Main} />
+            
           </Switch>
         </div>
 

@@ -1,12 +1,12 @@
 import React, {Component} from "react";
 import MessageList from './MessageList';
 import '../styling/messages.css'
-// import {FaRegSmile} from 'react-icons/fa';
-// import {TiAt} from 'react-icons/ti';
-// import {TiCamera} from 'react-icons/ti';
-// import {TiImage} from 'react-icons/ti';
-// import {TiAttachment} from 'react-icons/ti';
-// import {TiArrowRightThick} from 'react-icons/ti';
+import {FaRegSmile} from 'react-icons/fa';
+import {TiAt} from 'react-icons/ti';
+import {TiCamera} from 'react-icons/ti';
+import {TiImage} from 'react-icons/ti';
+import {TiAttachment} from 'react-icons/ti';
+import {TiArrowRightThick} from 'react-icons/ti';
 
 
 class Messages extends Component {
@@ -31,6 +31,10 @@ class Messages extends Component {
     
     const listMessages = this.state.userMessage.map((message, i) => <li key={i}>{message}</li>)
 
+    const consolelog = () => {
+      console.log("testing")
+    }
+
     return (
 
       <div>
@@ -39,9 +43,14 @@ class Messages extends Component {
         </div>
         <div className= "messagebox">
         <textarea className = "textbox" type="text" value={this.state.value} onChange={this.handleChange} />
-        <button onClick = {this.addMessage}>Send</button>
+        <button><TiArrowRightThick onClick = {this.addMessage}/></button>
         </div>
-      </div>
+        <button><FaRegSmile onClick={consolelog}/></button>
+        <button><TiAt onClick={consolelog}/></button>
+        <button><TiCamera onClick={consolelog}/></button>
+        <button><TiImage onClick={consolelog}/></button>
+        <button><TiAttachment onClick={consolelog}/></button>
+        </div>
     );
   }
   }

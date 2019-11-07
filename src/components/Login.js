@@ -1,7 +1,7 @@
 import React from 'react'
 import './Login.css'
 import { Link } from 'react-router-dom'
-import SideBarLeft from './user-left'
+// import SideBarLeft from '.user-left'
 
 export default function Button() {
 

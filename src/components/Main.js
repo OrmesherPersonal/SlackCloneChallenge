@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import './Main.css'
-import SideBar from './User'
-import SideBarLeft from './user-left'
+import SideBar from '../sidebar/Sidebar'
+import SideBarLeft from '../sidebar/Sidebar-left'
 
 class Main extends Component {
     render() {

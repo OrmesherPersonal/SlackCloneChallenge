@@ -1,19 +1,20 @@
-import React from 'react'
-import Navbar from './Navbar'
+import React, { Component } from 'react'
+import './Main.css'
 
-export default function Main() {
-    return (
-        <div>
-        <Navbar />
-            <p> testing</p>
-            <div className="App">
-      <header className="App-header">
-       
-        <p>
-         HELLOoooooooooo        </p>
+class Main extends Component {
+    render() {
+        return (
+            <div>
+                <div className="app">
+                    <main className="main">
+                        <p>this is the page content</p>
+                    </main>
 
-      </header>
-    </div>
-        </div>
-    )
+                </div>
+            </div>
+
+        )
+    }
 }
+
+export default Main;

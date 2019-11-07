@@ -1,69 +1,55 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+    ##Slack Clone##
 
-## Available Scripts
+Project name is "Slack Clone" that allows people to communicate eficiently.
+Slack Clone is designed to be a communication tool, using chat-like box and being able to switch through different channels.
 
-In the project directory, you can run:
+    Prerequisites
 
-### `npm start`
+Before you continue, ensure you meet the following requirements:
+*You have installed the latest version of Visual Studio Code, React, JavaScript, HTML and CSS.
+*You are using a Mac OS machine or Windows (not older than 10 years).
+*You have basic understanding of a communicator programme (like WhatSapp, Messenger).
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+    Installing Slack Clone
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+To install Slack CLone, follow these steps:
+Mac OS and Windows:
+1. Pull the code from this link: <insert our wonderful GitHub link>
+2. Open/Download the link in your VS Code.
+3. If the latest version of React is installed, right click the "index.html" file and click "Open with live server".
+4. It will take a few moments for the App to load on the screen.
 
-### `npm test`
+    Using Slack Clone
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To use Slack Clone, follow these steps:
+1. Once Slack Clone is opened in the browser you will be able to see the "Login" button. Click it.
+2. Now you're in the App. You should be able to see (in the centre of the page) a large text-like box where users can input their messages.
+3. Left hand side contains a slide bar, where you can access different channels.
+4. Right hand side contains a slide bar, where you can access settings and personal information of the user.
 
-### `npm run build`
+    <!-- Conbtributing to Slack Clone -->
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+//To contribute to "Slack Clone", follow these steps:
+//1. Fork this repository.
+//2. Create a branch: git checkout -b <branch_name>.
+//3. Make your changes and commit them: git commit -m '<commit_message>'
+//4. Push to the original branch: git push origin SlackClone/<location>
+//5. Create the pull request. 
+    <!-- Conbtributing to Slack Clone -->
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+    Contributors
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Thanks to the following people who have contributed to this project:
+-Anthony Ormesher
+-Vicky Hotchkiss
+-Monica Valencia
+-Pawel Mohyluk
 
-### `npm run eject`
+    Acknowledgements
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Special thanks to {Code Nation} for providing help through this project.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    Future Updates
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
-# SlackCloneChallenge
+Once version 1.0 is released, our team will be working on developing v 1.1, where the functionality will be expanded and message interactions with multiple users will be added.
+More vibrant color palletes and CSS styling changes will also be made.

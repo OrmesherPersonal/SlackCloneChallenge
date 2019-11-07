@@ -1,18 +1,15 @@
-body {
-    margin: 0;
+
+  @import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Display&display=swap'); /* Big Shoudlers */
+
+  body {
+    font-family: 'Big Shoulders Display', cursive;
+    margin: none;
+    color: #404547;
+    background-color: #dfe6e8;
   }
-  
-  #App {
-    font-family: sans-serif;
-  
-    /* Give app full page to work with */
-    height: 100vh;
-  }
-  
   .icon{
     margin-right: 2vh;
     border-bottom-style: none;
-  
   }
   
   #status, #activity, #starred, #files, #profile, #settings{
@@ -21,7 +18,6 @@ body {
     border-bottom-style: solid;
     border-bottom-width: thin;
     border-color: rgba(246, 246, 246, 0.068);
-  
   }
   
   #donot, #directory{
@@ -51,7 +47,7 @@ body {
     margin-right: 3vw;
     border-style: solid;
     border-radius: 1vh;
-    background-color: white;
+    background-color: #cca9a7;
   }
   
   #page-wrap {
@@ -68,7 +64,7 @@ body {
     /* Our sidebar item styling */
     text-decoration: none;
     /* margin-bottom: 10px; */
-    color: #d1d1d1;
+    color: #cca9a7;
     transition: color 0.2s;
   }
   
@@ -80,7 +76,7 @@ body {
   
   /* Change color on hover */
   .bm-item:hover {
-    color: white;
+    color: rgb(247, 210, 210);
   }
   
   /* The rest copied directly from react-burger-menu docs */
@@ -97,7 +93,7 @@ body {
   
   /* Color/shape of burger icon bars */
   .bm-burger-bars {
-    background: #373a47;
+    background: #80514e;
   }
   
   /* Position and sizing of clickable cross button */
@@ -108,12 +104,12 @@ body {
   
   /* Color/shape of close button cross */
   .bm-cross {
-    background: #bdc3c7;
+    background: #cca9a7;
   }
   
   /* General sidebar styles */
   .bm-menu {
-    background: #373a47;
+    background: #80514e;
     padding: 1em 1.5em 0;
     font-size: 1.15em;
   }
@@ -130,7 +126,6 @@ body {
   
   /* Styling of overlay */
   .bm-overlay {
-    background: rgba(246, 246, 246, 0.3);
+    background: #80514e;
   }
-  
   

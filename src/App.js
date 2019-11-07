@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 
 
 import "./App.css";
-import SideBar from './components/User';
+import SideBar from './sidebar/Sidebar';
 
 function App() {
   return (

@@ -14,7 +14,7 @@ import { MdPersonOutline} from "react-icons/md";
 import { FaSlidersH} from "react-icons/fa";
 // import avatar from './avatar.png' //this is a default avatar img
 import pic from './images/pic.png'
-import "./styles/user.css";
+import "./styles/sidebar.css";
 
 
 export default props => {

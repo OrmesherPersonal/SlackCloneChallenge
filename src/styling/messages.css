@@ -1,16 +1,52 @@
-body {
+.channel {
     color: black;
     text-align: center;
     display: flex;
     flex-direction: column;
 }
 
+.textbox {
+    width:50%;
+}
+
 .messagelisting {
-    display: inline-block;
-    width: 50%;
+    font-size: 2vh;
+    width: 100%;
     height: 50vh;
-    border: solid black 2px;
+    border: solid black 1px;
     text-align: left;
-    overflow: scroll;
+    /* word-wrap: break-word;
+    overflow: scroll; */
+    list-style: none;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    font: 16px/1.3 sans-serif;
+    height: 300px;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 8px;
+    overflow: auto;
+    width: 50%;
+}
+
+.messagelisting li {
+    background: #eee;
+    border-radius: 8px;
+    padding: 8px;
+    margin: 2px 8px 2px 0;
 
 }
+
+.messagelisting li.ours {
+    align-self: flex-end; /* Stick to the right side, please! */
+    margin: 2px 0 2px 8px;
+  }
+
+  .messagelisting li:last-child {
+    
+  }
+
+  button {
+      border-radius: 8px;;
+  }

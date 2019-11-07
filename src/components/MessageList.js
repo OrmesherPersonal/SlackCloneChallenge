@@ -7,7 +7,7 @@ const newText = props.list
     console.log(newText)
     
     return(<div>
-        <h1>{props.list}</h1>
+        {props.list}
     </div>);
 }
 

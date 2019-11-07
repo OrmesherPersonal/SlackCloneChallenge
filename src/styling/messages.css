@@ -1,0 +1,15 @@
+body {
+    color: black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.messagelisting {
+    display: inline-block;
+    width: 50%;
+    height: 50vh;
+    border: solid black 2px;
+    text-align: left;
+
+}

@@ -1,0 +1,131 @@
+
+  @import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Display&display=swap'); /* Big Shoudlers */
+
+  body {
+    font-family: 'Big Shoulders Display', cursive;
+    margin: none;
+    color: #404547;
+    background-color: #dfe6e8;
+  }
+  .icon{
+    margin-right: 2vh;
+    border-bottom-style: none;
+  }
+  
+  #status, #activity, #starred, #files, #profile, #settings{
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+    border-color: rgba(246, 246, 246, 0.068);
+  }
+  
+  #donot, #directory{
+    padding-bottom: 4vh;
+    padding-top: 4vh;
+  }
+  
+  a#user.bm-item.menu-item{
+    font-weight: 900;
+    padding-bottom: 2vh;
+  }
+  
+  #activity, #profile{
+    border-top-style: solid;
+    border-color: rgba(246, 246, 246, 0.068);
+    border-top-width: 20px;
+    padding-top: 4vh;
+  }
+  
+  
+  .avatar{
+    position: relative;
+    height: auto;
+    width: 10vw;
+    max-width: 8vh;
+    max-height: 10vh;
+    margin-right: 3vw;
+    border-style: solid;
+    border-radius: 1vh;
+    background-color: #cca9a7;
+  }
+  
+  #page-wrap {
+    text-align: center;
+  
+    /* Prevent sidebar from showing a scrollbar on page */
+    overflow: auto;
+  }
+  
+  /* Individual item */
+  .bm-item {
+    display: inline-block;
+  
+    /* Our sidebar item styling */
+    text-decoration: none;
+    /* margin-bottom: 10px; */
+    color: #cca9a7;
+    transition: color 0.2s;
+  }
+  
+  /* avoids outline border */
+  #user:focus {
+      outline: none !important;
+  }
+  
+  
+  /* Change color on hover */
+  .bm-item:hover {
+    color: rgb(247, 210, 210);
+  }
+  
+  /* The rest copied directly from react-burger-menu docs */
+  
+  /* Position and sizing of burger button */
+  .bm-burger-button {
+    position: fixed;
+    width: 0.2vw;
+    height: 2vh;
+    left: 97vw;
+    top: 36px;
+    /* padding: 6vh; */
+  }
+  
+  /* Color/shape of burger icon bars */
+  .bm-burger-bars {
+    background: #80514e;
+  }
+  
+  /* Position and sizing of clickable cross button */
+  .bm-cross-button {
+    height: 24px;
+    width: 24px;
+  }
+  
+  /* Color/shape of close button cross */
+  .bm-cross {
+    background: #cca9a7;
+  }
+  
+  /* General sidebar styles */
+  .bm-menu {
+    background: #80514e;
+    padding: 1em 1.5em 0;
+    font-size: 1.15em;
+  }
+  
+  /* Morph shape necessary with bubble or elastic */
+  .bm-morph-shape {
+    fill: #373a47;
+  }
+  
+  /* Wrapper for item list */
+  .bm-item-list {
+    color: #b8b7ad;
+  }
+  
+  /* Styling of overlay */
+  .bm-overlay {
+    background: #80514e;
+  }
+  

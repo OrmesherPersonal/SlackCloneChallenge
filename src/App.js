@@ -1,20 +1,29 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import './App.css';
+import Login from './components/Login'
+import Main from './components/Main'
+import { BrowserRouter, Switch, Route } from 'react-router-dom'
 
 
 import "./App.css";
-import SideBar from './components/User';
 
 function App() {
   return (
-    <div id="App">
-      <SideBar /> 
+    <div>
+
+      <BrowserRouter>
+        <div>
+     
+          <Switch>
+            <Route exact path="/" render={() => <Login title="12345" />} />
+            <Route path="/Main" component={Main} />
+          </Switch>
+        </div>
+
+      </BrowserRouter>
 
     </div>
   );
 }
-
-const rootElement = document.getElementById("root");
-ReactDOM.render(<App />, rootElement);
 
 export default App;

@@ -11,5 +11,6 @@ body {
     height: 50vh;
     border: solid black 2px;
     text-align: left;
+    overflow: scroll;
 
 }

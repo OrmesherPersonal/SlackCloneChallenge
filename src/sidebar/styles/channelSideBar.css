@@ -103,19 +103,14 @@ border-top-width: 20px;
   color:white;
   }
 
-<<<<<<< HEAD
   .topBar {
       display:flex;
-      flex-wrap: wrap;
-    
+      flex-wrap: wrap; 
   }
 
   .channel {
       width: 100%;
   }
-=======
 .icon {
     font-size: 1.7em;;
-
 }
->>>>>>> b1c1760b9ca3968e33aebe02b425d4744878f353

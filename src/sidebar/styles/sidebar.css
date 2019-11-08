@@ -31,7 +31,7 @@
   }
   
   #activity, #profile{
-    border-top-style: solid;
+    /* border-top-style: solid; */
     border-color: rgba(246, 246, 246, 0.068);
     border-top-width: 20px;
     padding-top: 4vh;

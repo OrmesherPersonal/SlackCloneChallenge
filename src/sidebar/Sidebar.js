@@ -8,8 +8,7 @@ import { GoSmiley } from "react-icons/go";
 import { FaRegBell } from "react-icons/fa";
 import { GoMention } from "react-icons/go";
 import { FaRegStar} from "react-icons/fa";
-import { GiStack } from "react-icons/gi";
-import { FaAddressBook} from "react-icons/fa";
+import { FaRegArrowAltCircleRight } from "react-icons/fa";
 import { MdPersonOutline} from "react-icons/md";
 import { FaSlidersH} from "react-icons/fa";
 // import avatar from './avatar.png' //this is a default avatar img
@@ -40,14 +39,6 @@ export default props => {
         Starred items
       </a>
 
-      <a className="menu-item" id="files" href="/files"><GiStack className="icon"/>
-        Your files
-      </a>
-
-      <a className="menu-item" id="directory" href="/directory"><FaAddressBook className="icon"/>
-        Directory
-      </a>
-
       <a className="menu-item" id="profile" href="/profile"><MdPersonOutline className="icon"/>
         Edit profile
       </a>
@@ -55,6 +46,11 @@ export default props => {
       <a className="menu-item" id="settings" href="/settings"><FaSlidersH className="icon"/>
         Settings
       </a>
+
+      <a className="menu-item" id="settings" href="/"><FaRegArrowAltCircleRight className="icon"/>
+        Logout
+      </a>
+
     </Menu>
   );
 };

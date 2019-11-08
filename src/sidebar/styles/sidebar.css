@@ -5,7 +5,7 @@
     font-family: 'Big Shoulders Display', cursive;
     margin: none;
     color: #404547;
-    background-color: #dfe6e8;
+    background-color: #ecf2f3;
   }
   .icon{
     margin-right: 2vh;
@@ -51,7 +51,7 @@
   }
   
   #page-wrap {
-    text-align: center;
+    text-align: left;
   
     /* Prevent sidebar from showing a scrollbar on page */
     overflow: auto;
@@ -85,6 +85,8 @@
   .bm-burger-button {
     position: fixed;
     width: 0.2vw;
+    /* max-width: 0.2vw; */
+    min-width: 0.2vw;
     height: 2vh;
     left: 97vw;
     top: 36px;

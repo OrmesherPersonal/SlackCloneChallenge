@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Display&display=swap'); /* Big Shoudlers */
+body {
+    font-family: 'Big Shoulders Display', cursive;
+    margin: none;
+    color: #404547;
+    background-color: #ecf2f3;
+  }
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 4vh;
+    left: 0;
+    background: #80514e;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.slackIcon{
+    font-size: 6vh;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 4vh;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: rgb(247, 210, 210);
+}
+
+.navContainer{
+    text-align: left;
+    position: relative;
+}
+
+.sidenav-container{
+    padding-left: 1vw;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 6vh;
+    color: rgb(247, 210, 210);
+}
+
+.anInput{
+    background-color: #83443fef;
+    border: none;
+    border-radius: 1vh;
+    height: 5vh;
+    width: 15vw;
+    color: rgb(247, 210, 210);
+    /* font-weight: 600; */
+    font-size: 3vh;
+    
+}
+    
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+  
+}
+
+.overlay h2, .overlay p {
+  color:white;
+  }

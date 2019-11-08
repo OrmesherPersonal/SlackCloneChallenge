@@ -13,7 +13,7 @@ class Messages extends Component {
   
   state= {
     value: "",
-    userMessage: []
+    userMessage: ["Hello, how are you today?"]
   }
 
   addMessage = () => {
@@ -42,15 +42,15 @@ class Messages extends Component {
           <MessageList  list={listMessages} name={this.state.name}/>
         </div>
         <div className= "messagebox">
-        <textarea className = "textbox" type="text" value={this.state.value} onChange={this.handleChange} />
+          <textarea className = "textbox" type="text" value={this.state.value} onChange={this.handleChange} />
         </div>
         <div className= "buttonDiv">
-        <button><FaRegSmile onClick={consolelog}/></button>
-        <button><TiAt onClick={consolelog}/></button>
-        <button><TiCamera onClick={consolelog}/></button>
-        <button><TiImage onClick={consolelog}/></button>
-        <button><TiAttachment onClick={consolelog}/></button>
-        <button className ="click"><TiArrowRightThick onClick = {this.addMessage}/></button>
+          <button><FaRegSmile onClick={consolelog}/></button>
+          <button><TiAt onClick={consolelog}/></button>
+          <button><TiCamera onClick={consolelog}/></button>
+          <button><TiImage onClick={consolelog}/></button>
+          <button><TiAttachment onClick={consolelog}/></button>
+          <button className ="click"><TiArrowRightThick onClick = {this.addMessage}/></button>
         </div>
       </div>
     );

@@ -46,14 +46,15 @@ class ChannelSideBar extends Component {
     render() {
         return (
             <div className="navContainer">
-                <span style={{ fontSize: 20, cursor: "pointer" }} className="openbtn" onClick={this.openNav}>&#9776;</span>
+                <div className="topBar"><span style={{ fontSize: 20, cursor: "pointer" }} className="openbtn" onClick={this.openNav}>&#9776;</span>
+                <div className="channel">#Random</div></div>
                 <div
                     ref="snav"
                     className="overlay"
                     style={this.state.style}
                 >
                     <div className="sidenav-container">
-                    <a  id="user" href="/"><AiOutlineSlack className="slackIcon"/> <input className="anInput" placeholder=" Jump to..."></input> </a>
+                    <a  id="user" href="/"><AiOutlineSlack className="slackIcon"/> <input className="anInput" placeholder="Search for.."></input> </a>
                         <a className="menu-item" id="user" href="/">
                             Channels</a>
                                      
@@ -68,14 +69,14 @@ class ChannelSideBar extends Component {
                         <a className="menu-item" href="/main"><FiHash className="icon" />
                             Direct Messages </a>
 
-                            <a className="menu-item" href="/activity">
+                            <a className="menu-item" class="menu" href="/activity">
                             General </a>
 
                         <a className="menu-item" href="/main"><MdHighlightOff className="icon" />
                             Slackbot </a>
      
      
-                        <a href="javascript:void(0)" className="closebtn" onClick={this.closeNav}>×</a>
+                        <a href="javascript:void(0)" class="xbutton" onClick={this.closeNav}>×</a>
                         <div className="list-group">
                             {/*your form component goes here */}
                             {this.props.children}

@@ -57,23 +57,21 @@ class ChannelSideBar extends Component {
                         <a className="menu-item" id="user" href="/">
                             Channels</a>
                                      
-
-
-                        <a href="/activity"><FiHash className="icon" />
+                        <a href="/main"><FiHash className="icon" />
                             Random</a>
       
 
-                        <a href="/activity"><FiHash className="icon" />
+                        <a href="/main"><FiHash className="icon" />
                             Activity </a>
      
 
-                        <a className="menu-item" href="/activity"><FiHash className="icon" />
+                        <a className="menu-item" href="/main"><FiHash className="icon" />
                             Direct Messages </a>
 
                             <a className="menu-item" href="/activity">
                             General </a>
 
-                        <a className="menu-item" href="/activity"><MdHighlightOff className="icon" />
+                        <a className="menu-item" href="/main"><MdHighlightOff className="icon" />
                             Slackbot </a>
      
      

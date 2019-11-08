@@ -27,6 +27,14 @@ class Messages extends Component {
     this.setState({value: event.target.value});
   }
 
+//will this add this time?!
+
+  keyPress = (event) => {
+    if(event.keyCode == 13){
+      this.addMessage()
+    }
+ }
+
   render() {
     
     const listMessages = this.state.userMessage.map((message, i) => <li key={i}>{message}</li>)

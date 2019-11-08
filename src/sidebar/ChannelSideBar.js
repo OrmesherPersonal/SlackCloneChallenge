@@ -3,7 +3,7 @@ import './styles/channelSideBar.css'
 import { FiHash } from "react-icons/fi";
 import { AiOutlineSlack } from "react-icons/ai";
 import { MdHighlightOff} from "react-icons/md";
-
+import logo from '../components/logo/logoPic3isFree.png'
 
 
 
@@ -54,7 +54,7 @@ class ChannelSideBar extends Component {
                     style={this.state.style}
                 >
                     <div className="sidenav-container">
-                    <a  id="user" href="/"><AiOutlineSlack className="slackIcon"/> <input className="anInput" placeholder="Search for.."></input> </a>
+                    <a  id="user" href="/"> <img src={logo} alt="logo" className="logo"/> <input className="anInput" placeholder=" Jump to..."></input> </a>
                         <a className="menu-item" id="user" href="/">
                             Channels</a>
                                      

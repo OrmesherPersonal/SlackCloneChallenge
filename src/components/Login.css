@@ -32,7 +32,7 @@ button {
 }
 
 .myButton {
-   padding : 300px 0 0 0;
+   padding : 100px 0 0 0;
 }
 
 h1 {
@@ -47,3 +47,10 @@ h1 {
 	font-size: 18px;
 	
 }
+
+
+.logoPicture {
+	width: auto;
+	height: 20%;
+	margin-top: 20%;
+ }

@@ -1,6 +1,7 @@
 import './Login.css'
 import { Redirect, Route, withRouter } from 'react-router-dom'
 import React, { Component } from 'react'
+import logo from '../components/logo/logoPic3isFree.png'
 
 
 class Login extends Component {
@@ -30,9 +31,9 @@ class Login extends Component {
         return (
             <form onSubmit={this.handleFormSubmit.bind(this)}>
                 <div className="loginpagecontainer">
-
+                <img className="logoPicture" src={logo}></img>
                     <div className="myButton">
-                        <h1> Slack clone login</h1>
+                        <h1> Splack</h1>
                         <input className="username" placeholder="Username" value={this.state.username} onChange={this.handleChange} type="text"></input><br />
                         <button type="submit" >Login</button>
                     </div>

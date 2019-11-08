@@ -24,6 +24,11 @@ a {
     color: #80514e;
 }
 
+.logo{
+    height: 10vh;
+    width: 12vw;
+}
+
 .slackIcon{
     font-size: 6vh;
 }

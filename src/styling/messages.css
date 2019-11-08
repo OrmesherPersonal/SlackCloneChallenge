@@ -33,6 +33,7 @@
     margin: 0 auto;
     padding: 8px;
     overflow: auto;
+    background-color: white;
 }
 
 .messagelisting li {

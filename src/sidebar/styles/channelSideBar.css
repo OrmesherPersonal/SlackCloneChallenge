@@ -2,9 +2,12 @@
 body {
     font-family: 'Big Shoulders Display', cursive;
     margin: none;
-    color: #404547;
-    background-color: #ecf2f3;
+    color: #cca9a7;
   }
+
+a {
+    color: #cca9a7;
+}
 
 .overlay {
     height: 100%;
@@ -16,6 +19,9 @@ body {
     background: #80514e;
     overflow-x: hidden;
     transition: 0.5s;
+}
+.openbtn {
+    color: #80514e;
 }
 
 .slackIcon{
@@ -33,10 +39,16 @@ body {
 .overlay a {
     padding: 8px;
     text-decoration: none;
-    font-size: 4vh;
-    color: #818181;
     display: block;
     transition: 0.3s;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+    border-color: rgba(246, 246, 246, 0.068);
+    margin-left: 10px;
+    margin-right: 10px;
+
 }
 
 .overlay a:hover, .overlay a:focus {
@@ -52,26 +64,30 @@ body {
     padding-left: 1vw;
 }
 
-.overlay .closebtn {
+.overlay .xbutton {
     position: absolute;
     top: 0;
     right: 0;
     font-size: 6vh;
-    color: rgb(247, 210, 210);
+    color: #cca9a7;
+    border: none;
 }
 
 .anInput{
     background-color: #83443fef;
     border: none;
-    border-radius: 1vh;
     height: 5vh;
-    width: 15vw;
     color: rgb(247, 210, 210);
     /* font-weight: 600; */
     font-size: 3vh;
     
 }
-    
+
+.menu {
+    border-top-style: solid;
+border-color: rgba(246, 246, 246, 0.068);
+border-top-width: 20px;
+}
 
 @media screen and (max-height: 450px) {
   .overlay a {font-size: 20px}
@@ -86,3 +102,8 @@ body {
 .overlay h2, .overlay p {
   color:white;
   }
+
+.icon {
+    font-size: 1.7em;;
+
+}

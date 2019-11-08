@@ -27,12 +27,17 @@ class Messages extends Component {
     this.setState({value: event.target.value});
   }
 
+  keyPress = (event) => {
+    if(event.keyCode == 13){
+      this.addMessage()
+    }
+ }
+
   render() {
     
     const listMessages = this.state.userMessage.map((message, i) => <li key={i}>{message}</li>)
 
     const consolelog = () => {
-      console.log("testing")
     }
 
     return (
@@ -42,7 +47,7 @@ class Messages extends Component {
           <MessageList  list={listMessages} name={this.state.name}/>
         </div>
         <div className= "messagebox">
-          <textarea className = "textbox" type="text" value={this.state.value} onChange={this.handleChange} />
+          <textarea className = "textbox" type="text" value={this.state.value} placeholder="enter your message here" onKeyDown = {this.keyPress} onChange={this.handleChange} />
         </div>
         <div className= "buttonDiv">
           <button><FaRegSmile onClick={consolelog}/></button>

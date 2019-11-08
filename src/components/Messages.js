@@ -50,7 +50,7 @@ class Messages extends Component {
         <button><TiCamera onClick={consolelog}/></button>
         <button><TiImage onClick={consolelog}/></button>
         <button><TiAttachment onClick={consolelog}/></button>
-        <button><TiArrowRightThick onClick = {this.addMessage}/></button>
+        <button className ="click"><TiArrowRightThick onClick = {this.addMessage}/></button>
         </div>
       </div>
     );

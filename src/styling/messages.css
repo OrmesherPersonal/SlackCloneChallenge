@@ -3,10 +3,11 @@
     text-align: center;
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
 }
 
 .textbox {
-    width:50%;
+    width:53%;
 }
 
 .messagelisting {
@@ -14,9 +15,6 @@
     width: 100%;
     height: 50vh;
     border: solid black 1px;
-    text-align: left;
-    /* word-wrap: break-word;
-    overflow: scroll; */
     list-style: none;
     display: flex;
     flex-direction: column-reverse;
@@ -41,12 +39,18 @@
 .messagelisting li.ours {
     align-self: flex-end; /* Stick to the right side, please! */
     margin: 2px 0 2px 8px;
-  }
+}
 
-  .messagelisting li:last-child {
+  .messagelisting li:first-child {
     
   }
 
   button {
-      border-radius: 8px;;
+      border-radius: 8px;
+      background-color: #80514e;
+      font-size: 3vh;
+  }
+
+  .click {
+      background-color: #bd7d78;
   }

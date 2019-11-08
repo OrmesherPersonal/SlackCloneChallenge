@@ -46,7 +46,8 @@ class ChannelSideBar extends Component {
     render() {
         return (
             <div className="navContainer">
-                <span style={{ fontSize: 20, cursor: "pointer" }} className="openbtn" onClick={this.openNav}>&#9776;</span>
+                <div className="topBar"><span style={{ fontSize: 20, cursor: "pointer" }} className="openbtn" onClick={this.openNav}>&#9776;</span>
+                <div className="channel">#Random</div></div>
                 <div
                     ref="snav"
                     className="overlay"

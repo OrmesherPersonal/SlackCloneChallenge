@@ -86,3 +86,13 @@ body {
 .overlay h2, .overlay p {
   color:white;
   }
+
+  .topBar {
+      display:flex;
+      flex-wrap: wrap;
+    
+  }
+
+  .channel {
+      width: 100%;
+  }

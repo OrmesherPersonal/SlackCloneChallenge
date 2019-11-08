@@ -1,20 +1,45 @@
-import React from 'react'
 import './Login.css'
-import { Link } from 'react-router-dom'
-// import SideBarLeft from '.user-left'
+import { Redirect, Route, withRouter } from 'react-router-dom'
+import React, { Component } from 'react'
 
-export default function Button() {
 
-    // login = () => {
-    //     <Link to="/Main" className="myButton"></Link>
-    // }
-    return (
-        <div className="loginpagecontainer">
-        <div className="myButton">
-        <h1> Slack clone login</h1>
-        {/* <SideBarLeft /> */}
-            <Link to="/Main" >Login</Link>
-        </div>
-        </div>
-    )
+class Login extends Component {
+
+    state = {
+        username: ""
+    }
+
+    handleFormSubmit = (event) => {
+        event.preventDefault();
+
+        if (this.state.username == 'fiona') {
+            console.log("this is fionaaaj")
+            this.props.history.push("/main");
+
+        }
+        else {
+            alert('user does not exist please try again');
+        }
+    }
+
+    handleChange = (event) => {
+        this.setState({ username: event.target.value });
+    }
+
+    render() {
+        return (
+            <form onSubmit={this.handleFormSubmit.bind(this)}>
+                <div className="loginpagecontainer">
+
+                    <div className="myButton">
+                        <h1> Slack clone login</h1>
+                        <input className="username" placeholder="Username" value={this.state.username} onChange={this.handleChange} type="text"></input><br />
+                        <button type="submit" >Login</button>
+                    </div>
+                </div>
+            </form>
+        )
+    }
 }
+
+export default withRouter(Login);
